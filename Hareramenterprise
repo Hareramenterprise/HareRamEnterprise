@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hare Ram Enterprise</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #ff9800;
+            color: white;
+            padding: 20px 0;
+            font-size: 24px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px;
+        }
+        h2 {
+            color: #333;
+        }
+        footer {
+            background-color: #ff9800;
+            color: white;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            margin: 20px;
+            background-color: #ff9800;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background-color: #e68900;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Hare Ram Enterprise</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Your Trusted Business Partner</h2>
+        <p>Providing high-quality cotton wicks and other premium products.</p>
+        <a href="#products" class="btn">Explore Products</a>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Hare Ram Enterprise is committed to delivering top-quality cotton wicks with integrity and reliability.</p>
+        <p><strong>Proprietor:</strong> Haresh Babu</p>
+    </section>
+    
+    <section id="products">
+        <h2>Our Products</h2>
+        <ul>
+            <li>Long Cotton Wicks</li>
+            <li>Round Cotton Wicks</li>
+            <li>365 Wicks</li>
+            <li>Cotton Wicks (All Sizes & Types)</li>
+        </ul>
+        <a href="#contact" class="btn">Order Now</a>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: hareramenterprise1@gmail.com</p>
+        <p>Phone: 83741 70902</p>
+        <p>Address: Imampuram, Guntakal-515801, Anantapuram, Andhra Pradesh</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Hare Ram Enterprise. All rights reserved.</p>
+    </footer>
+</body>
+</html>
